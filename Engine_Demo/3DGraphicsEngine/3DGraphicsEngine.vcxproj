@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{9CED9EBC-4B38-4E7C-9C87-B29DF32B0D69}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>My3DGraphicsEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\EX\FlatBuffer\include;..\EX\Engine\inc;..\EX\FBX\include;..\EX\DXTK\Inc;..\EX\DXTex\Inc;$(IncludePath)</IncludePath>
+    <LibraryPath>..\EX\FBX\lib\debug;..\EX\DXTK\Lib;..\EX\DXTex\Lib;..\EX\FlatBuffer\lib\debug;$(LibraryPath)</LibraryPath>
+    <OutDir>..\EX\Engine\Lib\Debug\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\EX\FlatBuffer\include;..\EX\Engine\inc;..\EX\FBX\include;..\EX\DXTK\Inc;..\EX\DXTex\Inc;$(IncludePath)</IncludePath>
+    <LibraryPath>..\EX\FBX\lib\debug;..\EX\DXTK\Lib;..\EX\DXTex\Lib;..\EX\FlatBuffer\lib\debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\EX\FlatBuffer\include;..\EX\Engine\inc;..\EX\FBX\include;..\EX\DXTK\Inc;..\EX\DXTex\Inc;$(IncludePath)</IncludePath>
+    <LibraryPath>..\EX\FBX\lib\release;..\EX\DXTK\Lib;..\EX\DXTex\Lib;..\EX\FlatBuffer\lib\Release;$(LibraryPath)</LibraryPath>
+    <OutDir>..\EX\Engine\Lib\Release\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\EX\FlatBuffer\include;..\EX\Engine\inc;..\EX\FBX\include;..\EX\DXTK\Inc;..\EX\DXTex\Inc;$(IncludePath)</IncludePath>
+    <LibraryPath>..\EX\FBX\lib\release;..\EX\DXTK\Lib;..\EX\DXTex\Lib;..\EX\FlatBuffer\lib\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>Default</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>Default</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>Default</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>Default</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\EX\Engine\inc\Axis.h" />
+    <ClInclude Include="..\EX\Engine\inc\Camera.h" />
+    <ClInclude Include="..\EX\Engine\inc\Collision2D.h" />
+    <ClInclude Include="..\EX\Engine\inc\CollisionModel.h" />
+    <ClInclude Include="..\EX\Engine\inc\D3DDevice.h" />
+    <ClInclude Include="..\EX\Engine\inc\Define.h" />
+    <ClInclude Include="..\EX\Engine\inc\DrawText_Debug.h" />
+    <ClInclude Include="..\EX\Engine\inc\DxDefine.h" />
+    <ClInclude Include="..\EX\Engine\inc\FbxDataStructure.h" />
+    <ClInclude Include="..\EX\Engine\inc\FbxDataExporter.h" />
+    <ClInclude Include="..\EX\Engine\inc\FbxLoader.h" />
+    <ClInclude Include="..\EX\Engine\inc\Fbx_MeshData.h" />
+    <ClInclude Include="..\EX\Engine\inc\FbxData.h" />
+    <ClInclude Include="..\EX\Engine\inc\Fog.h" />
+    <ClInclude Include="..\EX\Engine\inc\Geometry_Generater.h" />
+    <ClInclude Include="..\EX\Engine\inc\Grid.h" />
+    <ClInclude Include="..\EX\Engine\inc\EngineInterface.h" />
+    <ClInclude Include="..\EX\Engine\inc\Light.h" />
+    <ClInclude Include="..\EX\Engine\inc\Material.h" />
+    <ClInclude Include="..\EX\Engine\inc\MeshFilter.h" />
+    <ClInclude Include="..\EX\Engine\inc\Mesh_Renderer.h" />
+    <ClInclude Include="..\EX\Engine\inc\RenderTarget.h" />
+    <ClInclude Include="..\EX\Engine\inc\RenderTargetMgr.h" />
+    <ClInclude Include="..\EX\Engine\inc\Render_Queue.h" />
+    <ClInclude Include="..\EX\Engine\inc\Shader.h" />
+    <ClInclude Include="..\EX\Engine\inc\ShaderMgr.h" />
+    <ClInclude Include="..\EX\Engine\inc\SKinned_Mesh.h" />
+    <ClInclude Include="..\EX\Engine\inc\Skybox.h" />
+    <ClInclude Include="..\EX\Engine\inc\Sprite.h" />
+    <ClInclude Include="..\EX\Engine\inc\Static_Mesh.h" />
+    <ClInclude Include="..\EX\Engine\inc\Terrain.h" />
+    <ClInclude Include="..\EX\Engine\inc\UI.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResourceMagagement.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Axis.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Collision2D.cpp" />
+    <ClCompile Include="CollisionModel.cpp" />
+    <ClCompile Include="D3DDevice.cpp" />
+    <ClCompile Include="DrawText_Debug.cpp" />
+    <ClCompile Include="EngineInterface.cpp" />
+    <ClCompile Include="FbxDataExporter.cpp" />
+    <ClCompile Include="FbxLoader.cpp" />
+    <ClCompile Include="Fbx_MeshData.cpp" />
+    <ClCompile Include="FbxData.cpp" />
+    <ClCompile Include="Fog.cpp" />
+    <ClCompile Include="Geometry_Generater.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="MeshFilter.cpp" />
+    <ClCompile Include="Mesh_Renderer.cpp" />
+    <ClCompile Include="RenderTarget.cpp" />
+    <ClCompile Include="RenderTargetMgr.cpp" />
+    <ClCompile Include="Render_Queue.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="ShaderMgr.cpp" />
+    <ClCompile Include="SKinned_Mesh.cpp" />
+    <ClCompile Include="Skybox.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="Static_Mesh.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="UI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3DGraphicsEngine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="3DGraphicsEngine.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="개발일지.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

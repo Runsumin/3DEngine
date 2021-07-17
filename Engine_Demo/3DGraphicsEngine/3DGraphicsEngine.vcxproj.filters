@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Template">
+      <UniqueIdentifier>{3a1d8e10-761e-4f6a-925b-9733c553963d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Device">
+      <UniqueIdentifier>{419b2ce5-a5e7-498a-9582-9802486f60bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Camera">
+      <UniqueIdentifier>{6bdf21f7-121b-496d-af22-a58b2cad967c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Shader">
+      <UniqueIdentifier>{b2fed2e8-418e-447d-a13c-96bbb715cf20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Debug">
+      <UniqueIdentifier>{23540e82-9b13-4a17-85ec-acbf228fd207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Math">
+      <UniqueIdentifier>{93ff2b17-3b5b-4fbb-a977-b825723f154b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Debug\Text">
+      <UniqueIdentifier>{336deb10-0016-4c76-bc9f-3d575e142350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Debug\Grid">
+      <UniqueIdentifier>{299069d3-8d19-4d3f-88bb-9617480c5a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Math\Collision">
+      <UniqueIdentifier>{00e17413-fdb0-45c6-8b86-ec6e217a8424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Light">
+      <UniqueIdentifier>{05336442-f9a2-4730-8642-9951d44ec672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI">
+      <UniqueIdentifier>{e88e86c9-04fa-4dfc-a452-dee57d52cef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\Sprite">
+      <UniqueIdentifier>{373488a3-35f7-4420-be0f-204712d3af01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Terrain">
+      <UniqueIdentifier>{31d52f38-9add-437a-8f53-9159ed3f64a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Interface">
+      <UniqueIdentifier>{2e65fad6-9569-42db-b3a7-cbe008021a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Shader\ShaderMgr">
+      <UniqueIdentifier>{bd6c7d22-dd5c-40e8-9eca-f8fbd9f82435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Render">
+      <UniqueIdentifier>{69045fb5-f376-49ab-99ba-eb4a8e1631e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Render\Render_Queue">
+      <UniqueIdentifier>{95e80c87-caae-4ded-9546-1b70af3c7d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Render\RenderTarget">
+      <UniqueIdentifier>{a2e6ae52-d64d-4fe5-9fbd-d44bb8c91ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Render\RenderTarget\RenderTargetMgr">
+      <UniqueIdentifier>{773e193d-67ff-43d1-ac1c-97f566c9b49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh">
+      <UniqueIdentifier>{fc7ec9b2-b73c-4945-98c1-ac57ede5d6e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh\FBXModel">
+      <UniqueIdentifier>{30ecf5e1-50d9-4b03-a702-4151137bfb06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh\FBXModel\Loader">
+      <UniqueIdentifier>{97366007-13b1-4a1f-a058-4e2578883076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh\FBXModel\Model">
+      <UniqueIdentifier>{d6f62b83-1306-4f8d-ae34-6a1c3221a3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh\FBXModel\Data">
+      <UniqueIdentifier>{857180f6-b4a6-428c-97b6-f7fa9707c1ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh\FBXModel\Data\Vertex">
+      <UniqueIdentifier>{c0cbbbb0-ffcd-48af-b2a7-22dd92efc05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh\FBXModel\Exporter">
+      <UniqueIdentifier>{b1cffb29-d83e-4b67-8759-a9bcab284588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh\Geometry Generater">
+      <UniqueIdentifier>{bab6b3cc-c710-4e43-a3d9-19519b53e71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh\Geometry Generater\CollModel">
+      <UniqueIdentifier>{00d05c03-df85-49f0-a14d-5652e75e9085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh\Geometry Generater\Axis">
+      <UniqueIdentifier>{349188c5-8c57-44af-93cb-750f1f8c985d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh\MeshFilter">
+      <UniqueIdentifier>{b36bf07d-de61-47f5-9a8e-0c9d7becf3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh\FBXModel\Model\Data">
+      <UniqueIdentifier>{3d405ef3-2d1c-4a4b-ae05-e63e090efb4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Render\Mesh_Renderer">
+      <UniqueIdentifier>{22efe832-6cfd-4b94-a04c-6e43fcad1424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SkyBox">
+      <UniqueIdentifier>{818b3783-fac2-4ea7-9c1d-7a2e825e6e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Mesh\FBXModel\Data\Material">
+      <UniqueIdentifier>{20307651-a3bf-4a3b-ae8d-2f4dd4bf163d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Shader\Fog">
+      <UniqueIdentifier>{00cd058b-0f91-4035-9af6-674ce9b7be67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Camera.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Axis.h">
+      <Filter>Source\Mesh\Geometry Generater\Axis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Collision2D.h">
+      <Filter>Source\Math\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\D3DDevice.h">
+      <Filter>Source\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Define.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\DxDefine.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\DrawText_Debug.h">
+      <Filter>Source\Debug\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Grid.h">
+      <Filter>Source\Debug\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Shader.h">
+      <Filter>Source\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\FbxDataStructure.h">
+      <Filter>Source\Mesh\FBXModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Light.h">
+      <Filter>Source\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\RenderTarget.h">
+      <Filter>Source\Render\RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\RenderTargetMgr.h">
+      <Filter>Source\Render\RenderTarget\RenderTargetMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Sprite.h">
+      <Filter>Source\UI\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\UI.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Terrain.h">
+      <Filter>Source\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\EngineInterface.h">
+      <Filter>Source\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\ShaderMgr.h">
+      <Filter>Source\Shader\ShaderMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\FbxData.h">
+      <Filter>Source\Mesh\FBXModel\Data\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\FbxLoader.h">
+      <Filter>Source\Mesh\FBXModel\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\CollisionModel.h">
+      <Filter>Source\Mesh\Geometry Generater\CollModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Geometry_Generater.h">
+      <Filter>Source\Mesh\Geometry Generater</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\FbxDataExporter.h">
+      <Filter>Source\Mesh\FBXModel\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMagagement.h">
+      <Filter>Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Render_Queue.h">
+      <Filter>Source\Render\Render_Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\MeshFilter.h">
+      <Filter>Source\Mesh\MeshFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\SKinned_Mesh.h">
+      <Filter>Source\Mesh\FBXModel\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Fbx_MeshData.h">
+      <Filter>Source\Mesh\FBXModel\Model\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Mesh_Renderer.h">
+      <Filter>Source\Render\Mesh_Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Skybox.h">
+      <Filter>Source\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Static_Mesh.h">
+      <Filter>Source\Mesh\FBXModel\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Material.h">
+      <Filter>Source\Mesh\FBXModel\Data\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EX\Engine\inc\Fog.h">
+      <Filter>Source\Shader\Fog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3DDevice.cpp">
+      <Filter>Source\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawText_Debug.cpp">
+      <Filter>Source\Debug\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source\Debug\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Axis.cpp">
+      <Filter>Source\Mesh\Geometry Generater\Axis</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision2D.cpp">
+      <Filter>Source\Math\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxLoader.cpp">
+      <Filter>Source\Mesh\FBXModel\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>Source\Render\RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTargetMgr.cpp">
+      <Filter>Source\Render\RenderTarget\RenderTargetMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source\UI\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderMgr.cpp">
+      <Filter>Source\Shader\ShaderMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxData.cpp">
+      <Filter>Source\Mesh\FBXModel\Data\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineInterface.cpp">
+      <Filter>Source\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionModel.cpp">
+      <Filter>Source\Mesh\Geometry Generater\CollModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry_Generater.cpp">
+      <Filter>Source\Mesh\Geometry Generater</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxDataExporter.cpp">
+      <Filter>Source\Mesh\FBXModel\Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="Render_Queue.cpp">
+      <Filter>Source\Render\Render_Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFilter.cpp">
+      <Filter>Source\Mesh\MeshFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="SKinned_Mesh.cpp">
+      <Filter>Source\Mesh\FBXModel\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Static_Mesh.cpp">
+      <Filter>Source\Mesh\FBXModel\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Fbx_MeshData.cpp">
+      <Filter>Source\Mesh\FBXModel\Model\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh_Renderer.cpp">
+      <Filter>Source\Render\Mesh_Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source\Mesh\FBXModel\Data\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Fog.cpp">
+      <Filter>Source\Shader\Fog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3DGraphicsEngine.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="3DGraphicsEngine.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="개발일지.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
