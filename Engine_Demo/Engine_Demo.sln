@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3DGraphicsEngine", "3DGraphicsEngine\3DGraphicsEngine.vcxproj", "{9CED9EBC-4B38-4E7C-9C87-B29DF32B0D69}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestBuild", "TestBuild\TestBuild.vcxproj", "{A4220888-D111-4D24-82EF-B629C45F1BD6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9CED9EBC-4B38-4E7C-9C87-B29DF32B0D69} = {9CED9EBC-4B38-4E7C-9C87-B29DF32B0D69}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CED9EBC-4B38-4E7C-9C87-B29DF32B0D69}.Debug|x86.ActiveCfg = Debug|Win32
+		{9CED9EBC-4B38-4E7C-9C87-B29DF32B0D69}.Debug|x86.Build.0 = Debug|Win32
+		{9CED9EBC-4B38-4E7C-9C87-B29DF32B0D69}.Release|x86.ActiveCfg = Release|Win32
+		{9CED9EBC-4B38-4E7C-9C87-B29DF32B0D69}.Release|x86.Build.0 = Release|Win32
+		{A4220888-D111-4D24-82EF-B629C45F1BD6}.Debug|x86.ActiveCfg = Debug|Win32
+		{A4220888-D111-4D24-82EF-B629C45F1BD6}.Debug|x86.Build.0 = Debug|Win32
+		{A4220888-D111-4D24-82EF-B629C45F1BD6}.Release|x86.ActiveCfg = Release|Win32
+		{A4220888-D111-4D24-82EF-B629C45F1BD6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {209AE1CD-9859-46AA-B388-F045B2F3B836}
+	EndGlobalSection
+EndGlobal
